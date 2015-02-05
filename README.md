@@ -2,6 +2,13 @@
 
 Benchmarks for rethinkdb on my mac. More to come...
 
+```bash
+$ brew install rethinkdb
+```
+
+Single shard.
+No tuning.
+
 # System 
 
 | Type    |  Value   |
