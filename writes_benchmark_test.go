@@ -19,12 +19,13 @@ var tableName string
 func testSetup() {
 
 	var err error
+
 	dbName = "benchmark"
 	tableName = "benchmarks"
 
 	bSess, err = gr.Connect(gr.ConnectOpts{
 		Address:  "localhost:28015",
-		Database: "test",
+		Database: dbName,
 		MaxIdle:  50,
 		MaxOpen:  50,
 	})
